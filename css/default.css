@@ -1,0 +1,66 @@
+html,body {
+	width: 100%;
+	height: 100%;
+    background-color: aqua;
+}
+
+#nate {
+	width: 800px;
+	height: 800px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin-top: -50px;
+	margin-left: -100px;
+}
+
+.letter {
+	font-family: LemonMilk;
+	font-size: 6em;
+	float: left;
+	margin-left: 5px;
+}
+
+@-webkit-keyframes c_move {
+    0%,100% {top: 0px;}
+    25% {top: -150px;}
+    90% {left: 250px;}
+}
+
+#c {
+    position: relative;
+    -webkit-animation: c_move 4s;
+}
+
+@-webkit-keyframes o_move {
+    0%,100% {left: 0px;}
+    25% {left: -150px;}
+    90% {left: 250px;}
+}
+
+#o {
+    position: relative;
+    -webkit-animation: o_move 4s;
+}
+
+@-webkit-keyframes l_move {
+    0%,100% {left: 0px;}
+    50% {left: -150px;}
+
+}
+
+#l {
+    position: relative;
+    -webkit-animation: l_move 7s;
+}
+
+@-webkit-keyframes q_move {
+    0%,100% {left: 0px;}
+    50% {left: 5px;}
+
+}
+
+#q {
+    position: relative;
+    -webkit-animation: q_move 7s;
+}
